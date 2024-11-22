@@ -1,0 +1,33 @@
+
+.form {
+    width: 250px;
+
+}
+
+.form__title{
+    margin-bottom: .5em;
+
+}
+
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+font-weight: 600;
+font-size: small;
+}
+
+.form__input{
+    background-color: rgb(152, 150, 150);
+    padding: .25em .7em;
+}
+

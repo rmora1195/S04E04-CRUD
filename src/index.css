@@ -1,0 +1,43 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cards {
+	background-color: rgba(163, 167, 165, 0.719);
+	display: grid;
+	gap: 1.5em;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: content-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+button {
+	border: 1px solid;
+	padding: 0.25em 1em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #f0f0f063;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
